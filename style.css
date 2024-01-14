@@ -25,13 +25,15 @@ form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
-    background: black
+
+    
+    
     
 }
+
 form .display input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
     box-shadow: none;
 
 }
@@ -42,7 +44,7 @@ form .display input{
     border-radius: 30px;
     border: none;
     outline: none;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     padding: 0px;
     margin-bottom: 20px;
