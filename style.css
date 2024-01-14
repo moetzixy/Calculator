@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 .container{
     width: 100%;
     height: 100vh;
@@ -19,4 +20,33 @@
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 20px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+
+}
+.calculator form input{
+    width: 60px;
+    height: 60px;
+    background: #373232;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    padding: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+form .orange_button{
+    background: #ff9f00;
 }
