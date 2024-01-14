@@ -25,11 +25,14 @@ form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    background: black
+    
 }
 form .display input{
     text-align: right;
     flex: 1;
     font-size: 45px;
+    box-shadow: none;
 
 }
 .calculator form input{
@@ -47,6 +50,9 @@ form .display input{
     margin: 10px;
 
 }
-form .orange_button{
-    background: #ff9f00;
+form input.orange{
+    background: rgb(255, 115, 0)
+}
+form input.grey{
+    background: rgb(103, 103, 103);
 }
